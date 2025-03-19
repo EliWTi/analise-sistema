@@ -219,13 +219,13 @@ ALTER TABLE Utiliza ADD CONSTRAINT FK_Utiliza_2
     ON DELETE SET NULL;
     
 CREATE TABLE `cartao` (
-  `idcartao` int NOT NULL,
+  `id_cartao` int NOT NULL,
   `numero` varchar(16) NOT NULL,
   `Data` date NOT NULL,
   `cvv` varchar(3) NOT NULL,
   `cpf` varchar(11) NOT NULL,
   `nometitular` varchar(50) NOT NULL,
-  PRIMARY KEY (`idcartao`),
+  PRIMARY KEY (`id_cartao`),
   UNIQUE KEY `idnew_table_UNIQUE` (`numero`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
