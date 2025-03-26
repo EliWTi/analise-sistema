@@ -1,0 +1,9 @@
+INSET INTO usuario(email, senha, possui_deficiencia, nome)
+VALUES (
+  'eliezer.lopes@gmail.com',
+  '12345MoveGo',
+  '',
+  'Eliezer Lopes',
+);
+
+  SELECT * FROM usuario;
