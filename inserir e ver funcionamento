@@ -1,9 +1,9 @@
-INSET INTO usuario(email, senha, possui_deficiencia, nome)
+INSERT INTO usuario (email, senha, possui_deficiencia, nome)
 VALUES (
   'eliezer.lopes@gmail.com',
   '12345MoveGo',
-  '',
-  'Eliezer Lopes',
+  FALSE,
+  'Eliezer Lopes'
 );
 
   SELECT * FROM usuario;
